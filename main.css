@@ -7,23 +7,20 @@ header {
     display :flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-right:20px;
+    height: 100px;
 
 
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 
-    border: solid 1px rgb(218, 196, 101);
+    border: solid 2.5px rgb(218, 196, 101);
 }
 
 
 .logo-img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }   
 
 
@@ -31,3 +28,45 @@ header {
     color: saddlebrown;
     margin: 0px;
 }
+
+
+.links a{
+    margin-left: 8px;
+    margin-right: 8px;
+
+    text-decoration: none;
+
+    color: rgb(155, 132, 32);
+    font-size: 23px;
+
+    transition: transform 0.3s ease
+
+    
+
+    
+}
+
+
+.links {
+    background-color: rgb(247, 217, 84);  
+    height: 100%;  
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 28px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+    
+
+}
+
+.links a:hover{
+    color : rgb(94, 77, 4);
+    transform: scale(1.2);
+
+    
+
+}
+
+
